@@ -1,0 +1,168 @@
+
+@import url(../fonts/fonts.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Gilroy;
+}
+
+.welcome {
+  
+}
+
+.wrapper {
+ 
+  
+}
+
+.welcome__container {
+  max-width: 1430px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.header__menu {
+  display: flex;
+  flex: 0 1 831px;
+}
+
+.header__menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex: 1 1 831px;
+  list-style-type: none;
+  padding: 5px 0 0 5px;
+  margin: 0;
+}
+
+.header__menu-link {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  letter-spacing: 1.5px;
+}
+
+
+.header__phone {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 3px 0 0 4px;
+}
+
+.header__phone::before {
+    content: url("../img/header/phone.svg");
+    width: 12px;
+    height: 12px;
+    margin: 0 7px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+.welcome {
+  background: linear-gradient(45deg, #212C3F 80%, #EA142E 155%);
+  min-height: 970px;
+  position: relative;
+
+}
+
+.welcome__title {
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  max-width: 698px;
+  margin: 90px 0 0 0;
+  padding: 0;
+}
+
+.welcome__benefit-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 46px 0 0 6px;
+  max-width: 650px;
+}
+
+.welcome__benefit-item {
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0 0 28px 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.welcome__benefit-item:last-child {
+  margin: 0;
+
+}
+
+.welcome__benefit-item_1::before {
+  content: url("../img/welcome/sheet.svg");
+  width: 37px;
+  height: 46px;
+  margin: 0 36px 0 0;
+}
+
+.welcome__benefit-item_2::before {
+  content: url("../img/welcome/money.svg");
+  width: 42px;
+  height: 46px;
+  margin: 0 32px 0 0;
+}
+
+.welcome__benefit-item_3::before {
+  content: url("../img/welcome/container.svg");
+  width: 52px;
+  height: 34px;
+  margin:  6px 30px 0 -8px;
+}
+
+.welcome__btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 458px;
+  height: 88px;
+  background-color: rgba(234, 20, 46, 1);
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  margin: 52px 0 0 0;
+  filter: drop-shadow(0 9px 21px rgba(234, 20, 46, 0.2));
+}
+
+.welcome__img {
+  position: absolute;
+  display: block;
+  bottom: -62px;
+  right: -8px;
+}
+
+
